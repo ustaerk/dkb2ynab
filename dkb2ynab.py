@@ -25,7 +25,7 @@ config = {
 }
 
 parser = argparse.ArgumentParser(description='Convert DKB account statements into a format usable by YNAB 4. Reads the'
-                                             'specified file and prints to stdout')
+                                             ' specified file and prints to stdout')
 
 group = parser.add_mutually_exclusive_group()
 group.add_argument('-a', action='store_const', dest='statement_type', const='account',
